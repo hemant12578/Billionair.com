@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spend Bill Gates' Money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Spend Bill Gates' Money</h1>
+        <div class="money-display">
+            <div class="money-counter">$100,000,000,000</div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="items-container">
+            <!-- Item entries will go here -->
+        </div>
+    </main>
+    
+    <footer>
+        <div class="receipt-section">
+            <button id="receipt-button">Show Receipt</button>
+        </div>
+    </footer>
+
+    <div class="receipt-modal" id="receipt-modal">
+        <div class="receipt-content">
+            <h2>Your Receipt</h2>
+            <div class="receipt-items" id="receipt-items">
+                <!-- Receipt items will go here -->
+            </div>
+            <div class="receipt-summary">
+                <p><strong>Total Spent:</strong> <span id="total-spent">$0</span></p>
+                <p><strong>Money Remaining:</strong> <span id="money-remaining">$100,000,000,000</span></p>
+            </div>
+            <button class="close-receipt" id="close-receipt">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
